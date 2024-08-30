@@ -1,0 +1,35 @@
+.botao{
+    margin: 10px;
+    margin-left: 40%;
+}
+h1{
+    text-align: center;
+    color: #cd7700;
+    padding: 30px;/* distancia */
+  
+}
+.titulo{
+    width: 25%;
+    height: 65px;
+    border: solid 1px #ebc999;
+    margin-top: 3%;
+    margin-left: 35%;
+    
+}
+.tamanho{
+    width: 30%;
+    height: 200px;
+    border: solid 1px #ebc999;
+    background-color: #ebc999;
+
+    color: black;
+    border-radius: 50px 5px; /*arredondamento de bordas*/
+    margin-top: 5%;
+    margin-left: 35%;
+
+}
+.conteudo{
+    font-family: cursive;
+    align-items: center;
+    padding-top: 20px;
+}

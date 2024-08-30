@@ -1,0 +1,33 @@
+
+h1{
+    padding: 30px;/* distancia */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #cd7700;
+}
+a:hover{
+    color: aliceblue;
+}
+
+a:link {/*fundo de qualquer link na pagina*/
+    background-color: #ebc999;
+   }
+.l{/*troca a cor do link na classe l*/
+    color: #cd7700;
+}
+
+.conteudo{/*caixa dos links*/
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 25%;
+    height: 150px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+    color: #ebc999;
+    background-color: #ebc999
+   
+}
+

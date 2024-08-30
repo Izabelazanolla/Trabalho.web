@@ -1,0 +1,70 @@
+body{
+    /*background-image: url(fundo.avif);*/
+    background-color: #6b3c20;
+    /*background-image: linear-gradient(to left,rgb(94, 100, 119),rgb(44, 26, 14));
+   /*background-attachment: scroll;  onde a imagem de fundo será colocada*/
+   
+}
+
+.h{
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-style: italic;
+}
+
+div#qt{
+    position: fixed top;
+    border: 1px solid #e2963a;
+    width: 1325px;
+    height: 150px;
+    background-color:#e2963a ;
+   /* background-image: url(cafefundo.avif);*/  
+}
+
+    
+.quadrado{
+    display: inline-block;
+    border: 1px solid color(srgb rgb(90, 87, 87) green blue);
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    position: relative ;
+    top: 40px;
+    left: 220px;
+}
+
+div#q1{
+    background-image: url(cafe.jpg);
+    background-size: 380px;
+}
+div#q2{
+    background-image: url(grao\ 1.jpg);
+    background-size: 295px;
+}
+div#q3{
+    background-image: url(pe\ cafe.avif);
+    background-size: 350px;
+    /*background-position: 50px,80px;*/
+}
+
+.Curiosidades{
+    font-size: 20px;
+    list-style: square inside;
+    padding-left: 40%;
+    color: black;
+}
+.nossaloja{
+    
+    text-align: center;
+    
+}
+
+
+div#fotoL{
+    width: 350px;
+    height: 400px;
+    background-image: url(lojacafe.avif);
+    background-size: 350px;
+    background-position: center;
+    left: 38%;
+}

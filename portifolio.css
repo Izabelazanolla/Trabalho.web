@@ -1,0 +1,53 @@
+.titulo{    /*caixa envolta do titulo*/
+    width: 35%;
+    height: 80px;
+    border: solid 1px #ebc999;
+    margin-top: 3%;
+    margin-left: 33%;
+}
+.botao{
+    margin: 10px;
+    margin-left: 40%;
+}
+h1{   /*titulo*/
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: center;
+    color: #cd7700;
+   
+}
+h3{  /*titulos dentro da caixa*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*nao achei a fonte*/
+}
+.tamanho{  /*caixa*/
+    width: 30%;
+    height: 350px;
+    border: solid 1px #ebc999;
+    background-color: #ebc999;
+    
+
+    color: black;
+    text-align: center;
+    border-radius: 50px 5px; /*arredondamento de bordas*/
+    margin-top: 3%;
+    margin-left: 35%;
+    font-family: cursive;
+
+    padding-top: 20px;
+}
+.tamanho img { /*tamanho da imagem dentro da caixa*/
+    max-width: 70%;
+    max-height: 70%;
+    
+}
+a:hover{ /*mudança de cor com o mouse*/
+    color: aliceblue;
+}
+a:link{
+    background-color: #ebc999;
+    
+}
+.l{/*troca a cor dos link na classe l*/
+    color: #cd7700;
+}
+

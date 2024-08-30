@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA</title>
+    <link rel="stylesheet" href="teste.css"><!-- linkar om o documento css (rel= relaionship)-->
+</head>
+<body>
+    <h1> Faça seu Pedido</h1>
+    <form action="teste.jps" method="post"></form>
+ <!-- teste.jsp lugar para qualvai ser enviado-->     
+        Nome:<input type="text" name="nome"> <br>
+        Email: <input type="email" name="email" >
+<!-- a opção email só funciona se inserido o @-->
+        <br>
+        Numero: 
+          <input type="number">
+        <br>
+        Endereço:
+          <input type="text" name="Endereço">
+        <br>
+        Tamanho:
+          <input type="radio" name="tamanho" value="G" > Grande <!-- cheked depois do g deixaria a opção marcada-->
+          <input type="radio" name="tamanho" value="M"> Media
+          <input type="radio" name="tamanho" value="P"> Pequena <br>
+<!--com o mesmo nome indica o mesmo grupo logo não da para escolher mais de uma ao memo tempo-->
+ <!--radio é a opção que pode ser marcada ou desmercada-->     
+        Sabor: 
+         <select name=" sabor">
+          <option value=""></option>
+          <option>frango</option>
+          <option>napolitana</option>
+          <option>calabresa</option>
+         </select>
+        <br>
+        Adicionais:
+         <input type="checkbox" name="borda" id="sim"> Borda
+         <input type="checkbox" name="queijo" id="sim"> Queijo Extra 
+        <!--checkbox deixa a opção de selecionar vário, um ou nenhum-->
+        <br>
+        Data da entrega:
+         <input type="date" name="dataentrega"> 
+        <br>
+        Comentários:
+       <br>
+         <textarea class="Comentarios" name="mensagem" cols="30" rows="10"></textarea>
+         
+<!-- rows = quantidade de linhas
+     cols= quantidade de colunas -->
+     <br>
+     <input type="submit" name="boton" style="background-color: rgb(123, 228, 170);" >
+    </body>
+</html>
